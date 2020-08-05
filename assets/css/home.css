@@ -1,7 +1,7 @@
 body {
     margin-top: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 350px;
+    margin-right: 350px;
     border: 1px solid black;
 }
 h1 {
@@ -50,7 +50,6 @@ a:active {
   .dropdown {
     position: relative;
     float: right;
-    display: inline-block;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -84,6 +83,8 @@ a:active {
     padding: 2px 16px;
     border-radius: 5px;
     margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     display: flex;
   }
 
@@ -105,4 +106,4 @@ a:active {
    float: right;
    width:33.33333%;
    text-align:right;
-  }​
+  }

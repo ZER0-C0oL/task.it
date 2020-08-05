@@ -1,0 +1,82 @@
+body {
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border: 1px solid black;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    font: sans-serif;
+}
+
+h3 {
+    font: sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.task-box {
+    background-color: burlywood;
+    margin-top:80px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+form {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+input, .categories{
+    background-color: burlywood;
+    font-weight: bold;
+    font-size: large;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    width:80%;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+select {
+    color:grey;
+}
+select option:first-child{
+    display: none;
+}
+
+select:focus, input:focus {
+    outline:none;
+    color:black;
+    border-bottom: 1px solid grey;
+}
+
+form button{
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+}
+form button:hover{
+    background-color:#4095c6;
+}

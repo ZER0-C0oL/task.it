@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title> <%= title %></title>
+        <script src="https://kit.fontawesome.com/40e7be9db4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/add_task.css">
+    </head>
+
+    <body>
+        <h1> 
+            <i class = "fas fa-tasks"></i>
+            Task.it
+        </h1>
+
+        <div class="task-box">
+            <h3> Add New Task</h3>
+            <form>
+                <input type="text" name="name" placeholder="Task" required><br><br>
+                <select class="categories" data-style="btn-info" name="category" required>
+                    <option value="" disabled selected>Select Category</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Work">Work</option>
+                    <option value="Home">Personal</option>
+                    <option value="Colege">College</option>
+                    <option value="Other">Other</option>
+                </select><br><br>
+                <input type="date" name="date" placeholder="Deadline(dd/mm/yy)">
+                <section><button type="submit">Add Task</button></section>
+            </form>
+        </div>
+
+    </body>
+</html>
