@@ -64,6 +64,13 @@ body button i {
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
 
+  .delete-button {
+    color: black;
+    align: right;
+    border: 3px;
+    float: right;
+}
+
 
   .task-card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -88,7 +95,7 @@ body button i {
     text-align:center;
   }
   .a-right {
-   float: inline-end;
+   float: right;
    width:33.33333%;
    text-align:right;
   }​
