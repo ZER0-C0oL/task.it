@@ -1,8 +1,33 @@
 <html>
     <head>
         <title> <%= title %></title>
+        <script src="https://kit.fontawesome.com/40e7be9db4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/home.css">
     </head>
     <body>
-        <p><% project %></p> 
+        <h1> 
+            <i class = "fas fa-tasks"></i>
+            Task.it 
+        </h1>
+        <i class = "fas fa-plus-circle fa-3x"></i>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+                Dropdown
+                <i class = "fas fa-caret-down"></i>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <% for (let i of task_list) { %>
+            <div class="task-card">
+                <p class="a-left"> <%= i.name %> </p>
+                <p class="a-center"> <%= i.date %> </p>
+                <p class="a-right"> <%= i.category %> </p>
+            </div>
+        <% } %>
     </body>
 </html>
