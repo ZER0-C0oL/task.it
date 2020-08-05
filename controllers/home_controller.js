@@ -5,9 +5,3 @@ module.exports.home = function(req, res) {
         task_list: tasks
     });
 }
-
-module.exports.add_task = function(req, res) {
-    return res.render('add_task', {
-        title: "Add Task"
-    });
-}
