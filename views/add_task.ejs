@@ -13,7 +13,7 @@
 
         <div class="task-box">
             <h3> Add New Task</h3>
-            <form>
+            <form action="/add-task" method="POST">
                 <input type="text" name="name" placeholder="Task" required><br><br>
                 <select class="categories" data-style="btn-info" name="category" required>
                     <option value="" disabled selected>Select Category</option>
@@ -23,7 +23,7 @@
                     <option value="Colege">College</option>
                     <option value="Other">Other</option>
                 </select><br><br>
-                <input type="date" name="date" placeholder="Deadline(dd/mm/yy)">
+                <input type="date" name="date">
                 <section><button type="submit">Add Task</button></section>
             </form>
         </div>
